@@ -1,0 +1,48 @@
+<header> <h2 class="section-title">tuSegundazo.com</h2> </header>
+
+
+
+<img src="..\assets\vehiculobanner.jpg" alt="Vehiculo Banner" class="image-banner">
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th class="h4">#</th>
+          <th class="h4">Marca</th>
+          <th class="h4">Línea</th>
+          <th class="h4">Modelo</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let v of vehiculos">
+            <td>
+              <dd>{{v.id}}</dd>
+            </td>
+            <td>
+              <dd>{{v.marca}}</dd>
+            </td>
+            <td>
+              <dd>{{v.linea}}</dd>
+            </td>
+            <td>
+              <dd>{{v.modelo}}</dd>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="calculo" >
+  <!-- <ul >
+    <li *ngFor="let m of marcas">
+      {{m}}
+    </li>
+  </ul> -->
+  <p class="lead" *ngFor="let m of contarMarcas">
+    Total {{m.marca}} : {{m.contador}}
+  </p>
+
+</div>
+
+<footer> <p class="contact-us">Contact us: +57 3102105253 - info@tusegundazo.com - @tusegundazo</p> </footer>
