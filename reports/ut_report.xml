@@ -1,13 +1,13 @@
 <testExecutions version="1">
-  <file path="src/app/vehiculo/vehiculo-list/vehiculo-list.component.spec.ts">
-    <testCase name="VehiculoListComponent should create" duration="179"/>
-    <testCase name="VehiculoListComponent Component has a table with 4 rows" duration="32"/>
-  </file>
   <file path="src/app/vehiculo/vehiculo.service.spec.ts">
-    <testCase name="Service: Vehiculo should ..." duration="8"/>
+    <testCase name="Service: Vehiculo should inject service..." duration="30"/>
+  </file>
+  <file path="src/app/vehiculo/vehiculo-list/vehiculo-list.component.spec.ts">
+    <testCase name="VehiculoListComponent should create" duration="97"/>
+    <testCase name="VehiculoListComponent Component has a table with 4 rows" duration="22"/>
   </file>
   <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should have as title 'base-project'" duration="35"/>
-    <testCase name="AppComponent should create the app" duration="12"/>
+    <testCase name="AppComponent should create the app" duration="22"/>
+    <testCase name="AppComponent should have as title 'base-project'" duration="9"/>
   </file>
 </testExecutions>
